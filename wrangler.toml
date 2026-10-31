@@ -1,0 +1,11 @@
+name = "cloudflare-distributed-lab"
+main = "src/worker.mjs"
+compatibility_date = "2024-11-01"
+
+[vars]
+GO_CLUSTER_COORDINATOR_URL = "http://127.0.0.1:9090"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "distributed-lab-db"
+database_id = "00000000-0000-0000-0000-000000000000"
